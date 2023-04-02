@@ -14,3 +14,5 @@ The code is written in Python and consists of several functions, including rando
 The script also includes a list of Pokemon and their stats, as well as a list of attacks and their properties.
 
 Overall, the code is designed to simulate a basic Pokemon battle, with randomized Pokemon and turn-based gameplay.
+ ##Quick note
+ The game was made in 25 minutes as a challenge. (If that sounds bad to you, then try making something lke this yourself under 25 minutes) So there are lot of things that could be improved, like adding actual type advantages, giving choice of attacks and switchin's etc. I may or mayn't update this or maybe I will just make a new project from scratch.
