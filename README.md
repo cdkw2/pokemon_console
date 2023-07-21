@@ -1,18 +1,29 @@
 # Pokemon Battle Simulator
 ## Introduction
-This is a Pokemon battle simulator where the player is given a random Pokemon and has to battle a random Pokemon.
+Welcome to the Pokemon Battle Simulator! This simple Python script allows you to experience exciting Pokemon battles by randomly assigning you and your opponent a Pokemon. Test your skills and see who emerges victorious!
 
 ## Getting Started
-To get started, the player needs to run the script and follow the prompts. The script will randomly assign the player a Pokemon and a randomly generated opponent Pokemon.
+To get started, follow these steps:
 
+1. Ensure you have Python installed on your system.
+2. Download the main.py script.
+3. Open a terminal or command prompt, navigate to the directory containing the script, and run it using the command: python main.py
+4. The script will generate a random Pokemon for you and your opponent.
 ## Gameplay
-The game is turn-based. Each turn, the player chooses an action from a list of options, such as attack, use an item, or switch Pokemon. The opponent will also choose an action. The turn then plays out, with each Pokemon using their chosen move. The battle continues until one Pokemon's HP is reduced to zero, at which point the other Pokemon is declared the winner.
+The game is played in a turn-based manner:
 
+You will be presented with a list of options during your turn, such as attacking, using an item, or switching Pokemon.
+Choose your action by typing the corresponding number and pressing Enter.
+Your opponent will also choose an action.
+Each turn, the chosen actions will play out, and the Pokemon will use their selected moves.
+The battle will continue until one Pokemon's HP reaches zero, and the other Pokemon will be declared the winner.
 ## Code Overview
-The code is written in Python and consists of several functions, including random_pokemon() to generate a random Pokemon, attack() to calculate damage done by an attack, and game_loop() to run the main game loop.
+The script is written in Python and consists of several functions:
 
-The script also includes a list of Pokemon and their stats, as well as a list of attacks and their properties.
+- random_pokemon(): Generates a random Pokemon for the player and the opponent.
+- attack(): Calculates the damage done by an attack based on attack and defense stats, with a chance of a critical hit.
+- game_loop(): Runs the main game loop, handling the player's input and the Pokemon battle.
+The script includes a list of Pokemon and their stats, as well as a list of attacks and their properties.
 
-Overall, the code is designed to simulate a basic Pokemon battle, with randomized Pokemon and turn-based gameplay.
- ## Quick note
- The game was made in 25 minutes as a challenge. (If that sounds bad to you, then try making something lke this yourself under 25 minutes) So there are lot of things that could be improved, like adding actual type advantages, giving choice of attacks and switchin's etc. I may or mayn't update this or maybe I will just make a new project from scratch.
+## Quick Note
+This project was created as a 25-minute challenge, so there are several areas for improvement, such as implementing actual type advantages, providing a choice of attacks, and enabling Pokemon switching during battles. Depending on my free time and interest, I may or may not update this project, or perhaps I will create a new one from scratch. Regardless, I hope you enjoy this simple Pokemon battle simulation!
