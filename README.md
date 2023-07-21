@@ -27,4 +27,4 @@ The script is written in Python and consists of several functions:
 The script includes a list of Pokemon and their stats, as well as a list of attacks and their properties.
 
 ## Quick Note
-This project was created as a 25-minute challenge, so there are several areas for improvement, such as implementing actual type advantages, providing a choice of attacks, and enabling Pokemon switching during battles. Depending on my free time and interest, I may or may not update this project, or perhaps I will create a new one from scratch. Regardless, I hope you enjoy this simple Pokemon battle simulation!
+This project was created as a 25-minute challenge, so there are several areas for improvement, such as implementing ~~actual type advantages~~, providing a choice of attacks, and enabling Pokemon switching during battles. Depending on my free time and interest, I may or may not update this project, or perhaps I will create a new one from scratch. Regardless, I hope you enjoy this simple Pokemon battle simulation!
