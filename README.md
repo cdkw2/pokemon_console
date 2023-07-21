@@ -23,6 +23,7 @@ The script is written in Python and consists of several functions:
 - random_pokemon(): Generates a random Pokemon for the player and the opponent.
 - attack(): Calculates the damage done by an attack based on attack and defense stats, with a chance of a critical hit.
 - game_loop(): Runs the main game loop, handling the player's input and the Pokemon battle.
+
 The script includes a list of Pokemon and their stats, as well as a list of attacks and their properties.
 
 ## Quick Note
