@@ -6,6 +6,7 @@
 
 import random
 import os
+import time
 
 class Pokemon:
     def __init__(self, name, type, level, max_hp, current_hp, attack, defense, speed):
@@ -136,7 +137,7 @@ while True:
         continue
     
     # Opponent's turn
-    clear()  # Clear the console
+    cls()  # Clear the console
     print()
     print(player_pokemon)
     print(opponent_pokemon)
